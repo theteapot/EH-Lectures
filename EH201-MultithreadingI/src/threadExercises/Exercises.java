@@ -30,7 +30,23 @@ public class Exercises {
 	    	}
 	    }*/
 		//Exercise 3b
-		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		ArrayList<Exercise3b> threadList = new ArrayList<Exercise3b>();
+	    while (true) {
+	    	String input = br.readLine();
+	    	if (input.compareTo("y") == 0) {
+	    		Exercise3b thread = new Exercise3b();
+	    		threadList.add(thread);
+	    		thread.start();
+	    	} 
+	    	if (input.compareTo("q") == 0) {
+	    		for (Exercise3b thread : threadList) {
+	    			thread.interrupt();	    			
+	    		}
+	    		System.exit(69);
+	    	}
+	    }
+	    
 	}
 
 }

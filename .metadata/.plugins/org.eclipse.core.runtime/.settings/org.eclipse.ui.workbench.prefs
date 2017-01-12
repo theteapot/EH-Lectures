@@ -1,0 +1,16 @@
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+ENABLED_DECORATORS=org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:true,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.pde.ui.binaryProjectDecorator\:false,org.eclipse.team.cvs.ui.decorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,
+eclipse.preferences.version=1
+org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.debug.ui.DetailPaneFont=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.debug.ui.MemoryViewTableFont=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.debug.ui.consoleFont=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.jdt.ui.editors.textfont=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.jface.textfont=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.pde.internal.ui.compare.ManifestContentMergeViewer=1|Source Code Pro|10.0|0|GTK|1|;
+org.eclipse.pde.internal.ui.compare.PluginContentMergeViewer=1|Source Code Pro|10.0|0|GTK|1|;
+pref_console_font=1|Source Code Pro|10.0|0|GTK|1|;
