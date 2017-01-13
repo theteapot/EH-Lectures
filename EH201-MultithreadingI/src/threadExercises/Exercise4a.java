@@ -1,12 +1,14 @@
 package threadExercises;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * A counter value which can be incremented
  */
 class Counter {
 	protected int val = 0;
 	
-	public void inc() {
+	synchronized public void inc() {
 		val++;
 	}
 	
@@ -39,12 +41,14 @@ class CounterThread implements Runnable{
 class Exercise4a {
 	private static Counter counter = new Counter();
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		for (int i=0; i<1000; i++) {
 			Thread counterThread = new Thread( new CounterThread(counter));
 			counterThread.start();
+		}
+		while (true) {
+			Thread.sleep(500);
 			System.out.println(counter.getValue());
 		}
-		System.out.println(counter.getValue());
 	}
 }

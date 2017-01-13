@@ -3,7 +3,7 @@ package org.drugReminder;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class ParticipantLog implements Observer{
+public class ParticipantLog implements Observer {
 	
 	ArrayList<String> appointmentList = new ArrayList<String>();
 	Clinic subject;
