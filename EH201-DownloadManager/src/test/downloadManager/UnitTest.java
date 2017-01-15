@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import downloadManager.Download;
+import downloadManager.DownloadManager;
 
 public class UnitTest {
 	
@@ -13,7 +14,12 @@ public class UnitTest {
 		Assert.assertEquals("TempleOSCD.ISO", testDownload.getOutputName());
 		testDownload = new Download("https://download.fedoraproject.org/pub/fedora/linux/releases/25/Spins/i386/iso/Fedora-KDE-Live-i386-25-1.3.iso", "/home/tkettle/downloads/");
 		Assert.assertEquals("Fedora-KDE-Live-i386-25-1.3.iso", testDownload.getOutputName());
-		
+	}
+	
+	@Test
+	public void testDownloadDirectory() {
+		DownloadManager testDownloadManager = new DownloadManager();
+		Assert.assertEquals("/home/tkettle/downloads/", testDownloadManager.getDownloadDirectory());
 	}
 
 }
